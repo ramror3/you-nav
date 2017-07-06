@@ -3,3 +3,136 @@
     display: block;
    }
  }
+
+ .nav-wrapper {
+ 	background-color: white  ;
+ }
+
+.nav-wrapper ul li:hover {
+	color: pink;
+}
+  .nav-wrapper .button-collapse {
+  	color: #92A1A4;
+  }
+
+  .nav-wrapper #you {
+  	margin-top: 10px;
+  	margin-left: -40px;
+  	color: #92A1A4;
+
+  }
+
+  .nav-wrapper #sss {
+  	margin-left: 60px;
+  	width:240%;
+  	color: #92A1A4;
+  	 border: 1px solid #A2ABAD;
+  	 height: 28px;
+
+  }
+
+  /* .nav-wrapper #sss li:visited {
+   	color: green;
+   }*/
+
+   .nav-wrapper #apple {
+   	margin-left: 410px;
+   	color: #92A1A4;
+
+   }
+
+  .nav-wrapper #boy {
+  		margin-left: 280px;
+  		color: #92A1A4;
+  }
+
+  .nav-wrapper #cat {
+  	border-color: #167ac6;
+    background: #167ac6;
+    color: #fff;
+    height: 28px;
+    border: solid 1px transparent;
+    padding: 0 10px;
+    outline: 0;  
+    font-size: 11px;
+    line-height: 30px;
+    border-radius: 2px;
+  }
+
+.side-nav {
+	width: 233px;
+}
+
+.side-nav li {
+   
+   line-height: 20px;
+   	font-size: 12px;
+
+}
+
+/*.side-nav .collection-item a{
+   
+   line-height: 50px;
+   margin-top: -2%;
+}*/
+
+/*.side-nav li i:visited {
+	color: white;
+}*/
+
+/*.side-nav li a {
+	margin: 0 32px 0 0
+	margin-top: 55px;
+}
+*/
+.side-nav li p {
+	margin-left: 30px;
+}
+
+.side-nav li #home{
+	margin-top: 55px;
+	font-size: 12px;
+ }
+
+.side-nav li #home1, #home2, #home3, #home4, #home5, #home6,
+			  #home7, #home8, #home9, #home10, #home11, #home12{
+	margin-top: 0%;
+	font-size: 12px;
+
+ }
+
+.side-nav li #home {
+	background-color: #D10023;
+	color: white;
+}
+
+.side-nav li #home1:hover, #home2:hover, #home3:hover, #home4:hover, #home5:hover, #home6:hover,
+			  #home7:hover, #home8:hover, #home9:hover, #home10:hover, #home11:hover, #home12:hover{
+	color: white;
+	background: #222;
+
+ }
+
+.side-nav li #home13 {
+	width: 60px;
+	height: 28px;
+	border: solid 1px transparent;
+	padding: 0 10px;
+	font-size: 11px;
+	white-space: nowrap;
+    word-wrap: normal;
+	border-color: #167ac6;
+    background: #167ac6;
+    color: #fff;
+    height: 28px;  
+    outline: 0;  
+    line-height: 30px;
+    border-radius: 2px;
+    margin-left: 30px;
+}
+
+.divider {
+margin-right: 30px;
+
+}
+
