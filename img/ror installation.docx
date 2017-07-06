@@ -1,0 +1,211 @@
+﻿UBUNTU INSTALLATION 
+
+sudo apt-get update
+
+install JDK and JRE in ubuntu:
+sudo apt-get install default-jre:
+it installed all the packages.
+
+sudo apt-get install default-jdk:
+it installed all the packages.
+
+
+To install rubymine in ubuntu:
+
+1.download rubymine from https://www.jetbrains.com/ruby/download/   ## please donwload earlirer versions like 7.1.4
+2. extract it
+3.open terminal and type 
+
+cd Downloads
+cd RubyMine-7.1.4
+cd bin
+then type this cmd  ./rubymine.sh   it will installed rubymine.
+
+Then search for RUBYMINE SYN key.
+
+
+rubymine
+
+syn
+===== LICENSE BEGIN =====
+43740-12042010
+00001nNPIOrzPwvJjS"Y8Nafc6RELU
+nlmUzXskacwerrfwQvstArii0nTYef
+ZX"QYSGu6yLR8pJECxe6TyjYB9V1OQ
+===== LICENSE END =====
+
+http://mycode99.blogspot.in/2014/03/rubymine-phpstorm.html     
+
+
+
+
+
+
+To install  Sublime-Text-3:
+1.sudo add-apt-repository ppa:webupd8team/sublime-text-3
+2.sudo apt-get update
+3.sudo apt-get install sublime-text-installer 
+
+Usage of sublime
+ 1.subl .
+
+
+To install mysql in ubuntu:
+
+sudo apt-get install mysql-server
+
+To install Mysql workbench:
+
+sudo apt-get install mysql-workbench
+
+
+To restart mysql server:
+
+
+sudo service mysql restart  # this command is for redhat linux
+OR
+sudo service mysql restart  # this command is for ubuntu linux
+
+
+To stop mysql server:
+sudo service mysqld stop
+OR
+sudo service mysql stop
+
+To start mysql server:
+sudo service mysqld start
+OR
+sudo service mysql start
+
+
+
+To login in mysql database:
+
+mysql -u root -p
+
+Use some mysql commands:
+show databases;
+use database_name;
+Ex:: use mysql;
+show databases;
+show tables;
+Ex:: select * from db;
+
+
+Steps to install git on ubuntu:
+
+1. install development tools
+2.install git
+sudo apt-get install git-core
+
+3. configure the git usename and email id(sudo nano ~/.gitconfig)
+
+git config --global user.name "ramror"
+
+git config --global user.email "ramesh.ramror@gmail.com"
+
+4.git config --list
+
+installation of postgresql in ubuntu(postgress):
+1.sudo apt-get install postgresql postgresql-contrib
+2.sudo apt-get install pgadmin3
+3.sudo nano /etc/postgresql/9.5/main/pg_hba.conf  (for my pc)
+
+WE HAVE TO TYPE IN CMD TRUST REPLACE BY PEER:
+# Database administrative login by Unix domain socket
+local   all             postgres                                trust
+
+# TYPE              DATABASE             USER            ADDRESS                      METHOD
+
+# "local" is for Unix domain socket connections only
+
+   local                     all                      all                                                                 trust
+
+# IPv4 local connections :
+
+   host                     all                      all                      127.0.0.1/32                        trust
+
+# IPv6 local connections :
+
+   host                     all                    all                            ::1/128                           trust
+
+# Allow replication connections from localhost, by a user with the
+
+# replication privilege.
+
+    #local                replication          postgres                                                       trust
+
+    #host                replication          postgres             127.0.0.1/32                      trust
+
+    #host               replication           postgres                  ::1/128                          trust
+
+4.sudo /etc/init.d/postgresql restart
+
+5.  sudo -u postgres psql postgres 
+	su – postgres
+	sudo -u postgres psql
+
+
+1. rvm installation:
+
+1.sudo apt-get install curl #it will install curl
+2.gpg --keyserver hkp://keys.gnupg.net --recv-keys D39DC0E3
+3.\curl -sSL https://get.rvm.io | bash -s stable
+
+
+
+### how to resolve error Rvm is not a function selecting rubies with 'rvm use' will not work
+1.Go to edit option in terminal
+2.Click profile preference
+3.Select title and command tab
+4.tick run command as login shell
+5.Close terminal open the new terminal((exit)
+
+RVM:
+source ~/.rvm/scripts/rvm
+rvm requirements
+
+
+Checking requirements for ubuntu.
+Installing requirements for ubuntu.
+Updating system....
+Installing required packages: gawk, libreadline6-dev, zlib1g-dev, libssl-dev, libyaml-dev, libsqlite3-dev, sqlite3, autoconf, libgmp-dev, libgdbm-dev, libncurses5-dev, automake, libtool, bison, libffi-dev..................
+Requirements installation successful. (it shows like this)
+INSTALL RUBY USING RVM:
+rvm install ruby
+gem install rails
+ruby -v
+rails -v
+rvm install ruby-1.9.3
+
+if ask:
+rvm docs generate-ri
+
+1.8.7  --- 2.x
+1.9.3  --- 3.x
+2.0.0  --- 4.x
+
+rvm help mount
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
