@@ -37,7 +37,11 @@
 
    .nav-wrapper #apple {
    	margin-left: 410px;
-   	color: #92A1A4;
+   	color: #92A1A4;  
+   /* padding: 2px;
+    width: 30px;
+    text-align: center;
+    border: solid 1px #A2ABAD;*/
 
    }
 
@@ -61,15 +65,25 @@
 
 .side-nav {
 	width: 233px;
+
 }
 
 .side-nav li {
    
    line-height: 20px;
-   	font-size: 12px;
+   font-size: 12px;
 
 }
 
+.side-nav .nospace {
+    font-size: 0;
+}
+
+
+/*.side-nav li>a {
+      display: block;
+}
+*/
 /*.side-nav .collection-item a{
    
    line-height: 50px;
@@ -89,7 +103,7 @@
 	margin-left: 30px;
 }
 
-.side-nav li #home{
+.side-nav .active{
 	margin-top: 55px;
 	font-size: 12px;
  }
@@ -136,3 +150,6 @@ margin-right: 30px;
 
 }
 
+.side-nav li.active {
+    background-color: #f44336;
+}
